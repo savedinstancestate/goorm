@@ -1,0 +1,107 @@
+.app {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 1000px;
+  margin: auto;
+}
+
+.budget-item {
+  background-color: #ffffff;
+  display: block;
+  justify-content: space-between;
+  padding: 14px;
+  margin: 10px 0px;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  width: 600px;
+}
+
+.budget-item>span {
+  background-color: #ffffff;
+  margin-right: 30px;
+}
+
+.item-name {
+  width: 300px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.item-price {
+  width: 180px;
+  color: gray;
+  display: inline-block;
+}
+
+.editButton {
+  color: rgb(40, 51, 136);
+  border: 1px solid rgb(40, 51, 136);
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 45px;
+  height: 30px;
+  margin-left: 10px;
+}
+.deleteButton {
+  color: black;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  width: 45px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.total {
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.input-item {
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #ffffff;
+  color: rgb(40, 51, 136);
+}
+
+.input {
+  background-color: #ffffff;
+  border: none;
+  border-bottom: 2px solid rgb(40, 51, 136);
+  outline: none;
+  font-size: 16px;
+  padding: 10px 0px;
+  width: 300px;
+}
+
+.addButton {
+  background-color: rgb(40, 51, 136);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  width: 80px;
+  height: 40px;
+  display: block;
+  font-size: 15px;
+}
+
+.alert {
+  width: 600px;
+  background: green;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.alert.error {
+  background: red;
+}
+
+.alert.success {
+  background: green;
+}
